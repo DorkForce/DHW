@@ -1,5 +1,5 @@
 {
-  "name": "dds-via-npm",
+  "name": "dds2-via-npm",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
