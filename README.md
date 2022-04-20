@@ -1,6 +1,10 @@
 # dds2-via-npm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+This is an empty Angular package that contains the DDS2 package as a dev dependency, and is confirmed to easily install on a new machine as a newly-cloned project.
+
+## Installation
+
+After cloning, simply run `npm install` and all node modules will be installed *while you are on the Dell VPN*. **This works because the project contains at its root the file `.npmrc` directing it to use Dell's Artifactory server**.
 
 ## Development server
 
