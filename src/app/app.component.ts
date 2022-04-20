@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'DHW';
+  title = 'dds2-via-npm';
 }
