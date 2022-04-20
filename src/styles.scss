@@ -5,3 +5,9 @@
 @use "@dds/components/src/scss/dds-icons.scss";
 @use "@dds/components/src/scss/dds-fonts.scss";
 @use "@dds/components/src/scss/dds-reboot.scss";
+
+.sample-box {
+    padding: 0.75rem;
+    background-color: #fbebff;
+    border: 1px solid #ecc4ff;
+}
