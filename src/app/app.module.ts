@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { PopoverComponent } from './components/popover/popover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ModalComponent
+    ModalComponent,
+    PopoverComponent
   ],
   imports: [
     BrowserModule

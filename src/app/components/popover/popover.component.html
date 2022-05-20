@@ -1,0 +1,13 @@
+<div [id]="elementId" [attr.data-trigger]="'#' + trigger" data-dds="popover" class="dds__popover" role="dialog"
+    data-placement="top" [attr.aria-labelledby]="elementId + 'Title'">
+    <div class="dds__popover__content">
+        <div class="dds__popover__header">
+            <h6 class="dds__popover__headline" [id]="elementId + 'Title'">
+                {{title}}
+            </h6>
+        </div>
+        <div class="dds__popover__body">
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>
